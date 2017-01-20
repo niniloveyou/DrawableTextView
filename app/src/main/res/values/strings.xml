@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">DrawableTextView</string>
+    <string name="camera">相机</string>
+    <string name="camera_full_screen">相机(宽度满屏)</string>
+</resources>

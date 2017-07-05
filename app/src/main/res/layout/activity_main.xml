@@ -3,7 +3,6 @@
     android:id="@+id/activity_main"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@android:color/white"
@@ -165,6 +164,18 @@
         android:drawablePadding="5dp"
         android:text="@string/camera_full_screen"
         android:textColor="@android:color/darker_gray"
+        android:textSize="16sp"
+        app:leftDrawable="@mipmap/camera"
+        app:leftDrawableHeight="20dp"
+        app:leftDrawableWidth="20dp"/>
+
+    <com.deadline.drawabletextview.DrawableTextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:drawablePadding="5dp"
+        android:hint="@string/hint_attribute_test"
+        android:textColor="@android:color/darker_gray"
+        android:textColorHint="@android:color/darker_gray"
         android:textSize="16sp"
         app:leftDrawable="@mipmap/camera"
         app:leftDrawableHeight="20dp"

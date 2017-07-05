@@ -101,7 +101,7 @@ public class DrawableTextView extends AppCompatTextView {
         float centerX = (getWidth() + getPaddingLeft() - getPaddingRight()) / 2;
         float centerY = (getHeight() + getPaddingTop() - getPaddingBottom()) / 2;
 
-        float halfTextWidth = getPaint().measureText(getText().toString()) / 2;
+        float halfTextWidth = getPaint().measureText(getText().toString().isEmpty() ? getHint().toString() : getText().toString()) / 2;
         Paint.FontMetrics fontMetrics = getPaint().getFontMetrics();
         float halfTextHeight = (fontMetrics.descent - fontMetrics.ascent) / 2;
 
